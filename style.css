@@ -2,6 +2,7 @@
     box-sizing: border-box;
     flex-wrap: wrap;
     color: aqua;
+    
   }
   
   body {
@@ -97,23 +98,23 @@ article {
     display: flex;
   }
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 2005px) {
+    header {
+      background: #84158e;
+    }
+  }
+
+  @media screen and (max-width: 1250px) {
     header {
       background: #772014;
     }
   }
   
-  
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #8c37e1;
+  @media screen and (max-width: 800px) {
+    header {
+      background: #5d00ff;
     }
   }
   
- 
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
+
   
