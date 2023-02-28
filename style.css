@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    color: aqua;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+    background-color: rgb(63, 62, 62);
+  }
+  ul>li {
+    display: inline-block;
+  }
+  
+  header {
+    padding: 60px;
+    text-align: center;
+    background-color: darkslategray;
+    color: #fff;
+  
+    flex-wrap: wrap;
+    margin: 3px;
+    justify-content: center;
+    flex: 1 0 200px;
+  }
+  
+  .My-new-website {
+    padding: 15px;
+    float: left;
+    width: 25%;
+    margin: 3px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .About-me {
+    padding: 15px;
+    float: left;
+    width: 25%;
+    margin: 3px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .Project {
+    padding: 15px;
+    float: left;
+    width: 25%;
+    margin: 3px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  
+  .contact-me{
+    padding: 15px;
+    float: left;
+    width: 25%;
+    margin: 3px;
+    text-align: center;
+    
+  }
+
+  .Text-center {
+    padding: 15px;
+    float: left;
+    width: 25%;
+    margin: 3px;
+    display: block;
+    justify-content: center;
+
+  }
+
+  
+
+  .Footer {
+    padding: 15px;
+    float: inline-end;
+    width: 25%;
+    margin: 3px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  @media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
+  
