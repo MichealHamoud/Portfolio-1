@@ -43,7 +43,7 @@ article {
   
   .My-new-website {
     padding: 15px;
-    float: left;
+    float: none;
     width: 25%;
     margin: 3px;
     flex-wrap: wrap;
